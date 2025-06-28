@@ -40,4 +40,4 @@ def extract_skema(path):
         print("⚠️ 图片格式暂未集成 OCR，返回 40 题示例答案")
         return [random.choice(['A', 'B', 'C', 'D']) for _ in range(40)]
     else:
-        raise ValueError(f"不支持的格式：{os.path.basename(path)}")示例内容
+        raise ValueError(f"不支持的格式：{os.path.basename(path)}")
