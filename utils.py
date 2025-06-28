@@ -62,4 +62,4 @@ def fallback_name_from_filename(image_path):
 def extract_student_answers(image_path, total_questions):
     print(f"📝 生成 {total_questions} 题的学生答案（示例随机）")
     choices = ['A', 'B', 'C', 'D']
-    return [random.choice(choices) for _ in range(total_questions)]示例内容
+    return [random.choice(choices) for _ in range(total_questions)]
